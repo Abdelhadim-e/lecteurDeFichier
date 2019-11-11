@@ -6,6 +6,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.FileInputStream;
 
+
 public abstract class Reader {
 	// Attribut protected pour étendre la famille
 	protected String content = "";
