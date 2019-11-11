@@ -14,6 +14,9 @@ public class LecteurMain {
 		lct.display();
 		System.out.println();
 		
+		// Suite de la consigne
+		// -> Implement (l'envers)
+		
 	}
 
 }
