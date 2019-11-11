@@ -6,10 +6,12 @@ public class LecteurMain {
 		// TODO Auto-generated method stub
 		System.out.println("Affichage lecteur");
 		
-		// new + pwd
-		LecteurFichierInterface lf = new LecteurFichier("C:/Users/Abdelhadim/Desktop/testLecteur.txt");
-		lf.read();
-		lf.display();
+		// new + pwd desktop
+		String pwd;
+		
+		LecteurFichierInterface lct = new LecteurFichier("/c/Users/Abdelhadim/Desktop/lecteurFichier.txt");
+		lct.read();
+		lct.display();
 		System.out.println();
 		
 	}

@@ -1,7 +1,7 @@
 package lecteurdefichier;
 
 public interface LecteurFichierInterface {
-	System.out.println("debug");
+	//System.out.println("debug");
 	
 	//lec et disp
 	//lec 

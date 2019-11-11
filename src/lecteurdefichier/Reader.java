@@ -4,6 +4,7 @@ package lecteurdefichier;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.FileInputStream;
 
 public abstract class Reader {
 	// Attribut protected pour étendre la famille
@@ -14,7 +15,7 @@ public abstract class Reader {
 	public void read(String file) {
 		FileInputStream in  = null;
 		File f = new File(file);
-		
+		// Ouverture du fichier 
 		try {
 			// Ouverture du fichier 
 			in = new FileInputStream(f);
