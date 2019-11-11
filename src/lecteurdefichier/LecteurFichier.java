@@ -10,7 +10,7 @@ public class LecteurFichier extends Reader implements LecteurFichierInterface {
 	}
 	
 	// Méthode héritée -> class parante
-	@override
+	//@override
 	public void read() {
 		super.read(file);
 	}
